@@ -30,6 +30,8 @@
             Console.WriteLine(String.Format("La distancia entre los pares ordenados ({0} , {1}) y ({2} , {3}) es = {4} ", x1, y1, x2, y2,
                 distancia.ToString("N3")));
 
+            //Cambios realizados 
+
         }
     }
 }
