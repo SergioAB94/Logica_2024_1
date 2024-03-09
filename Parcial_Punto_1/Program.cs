@@ -33,8 +33,9 @@
             Console.WriteLine(promedioComisiones);
 
             //calcular si gano el beneficio extra
+            double totalVentas = venta1 + venta2 + venta3;
             string mensaje;
-            if (totalComisiones > 1000000)
+            if (totalVentas > 1000000)
             {
                 mensaje= "ganaste el beneficio extra";
             }
