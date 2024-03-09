@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //Variables
-            double sueldobasico = 1000;
+            double sueldobasico = 2000000;
             double venta1, venta2, venta3;
 
             //cuanto valio cada venta
@@ -17,7 +17,9 @@
             venta3 = Convert.ToDouble(Console.ReadLine());
 
             //Calcular el valor de las comisiones
-
+            double comisionventa1 = venta1 * 0.10;
+            double comisionventa2 = venta2 * 0.10;
+            double comisionventa3 = venta3 * 0.10;
             
         }
     }
