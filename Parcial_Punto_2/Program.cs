@@ -8,6 +8,9 @@
             double velocidadTren1 = 80;
             double velocidadTren2 = 100;
 
+            TimeSpan tiempoSalidaTren1 = (10, 0, 0);
+            TimeSpan tiempoSalidaTren2 = (11, 0, 0);
+
 
 
 
