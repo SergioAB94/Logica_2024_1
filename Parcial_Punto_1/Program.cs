@@ -25,6 +25,9 @@
             double totalComisiones = comisionventa1 + comisionventa2 + comisionventa3;
             double sueldoTotal = comisionventa1 + comisionventa2 + comisionventa3 + sueldobasico;
 
+            //Calcular promedio de comisiones
+            double promedioComisiones = totalComisiones / 3;
+
 
         }
     }
