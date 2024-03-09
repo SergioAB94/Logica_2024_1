@@ -20,7 +20,12 @@
             double comisionventa1 = venta1 * 0.10;
             double comisionventa2 = venta2 * 0.10;
             double comisionventa3 = venta3 * 0.10;
-            
+
+            //calcular sueldo del mes
+            double totalComisiones = comisionventa1 + comisionventa2 + comisionventa3;
+            double sueldoTotal = comisionventa1 + comisionventa2 + comisionventa3 + sueldobasico;
+
+
         }
     }
 }
