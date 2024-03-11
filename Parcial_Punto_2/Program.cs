@@ -1,4 +1,6 @@
-﻿namespace Parcial_Punto_2
+﻿using System;
+
+namespace Parcial_Punto_2
 {
     internal class Program
     {
@@ -6,15 +8,33 @@
         {
             //definir variables:
             double velocidadTren1 = 80;
-            double velocidadTren2 = 100;
+            double velocidadTren2 = 110;
 
-            TimeSpan tiempoSalidaTren1 = (10, 0, 0);
-            TimeSpan tiempoSalidaTren2 = (11, 0, 0);
+            double tiempoInicial = 1;
 
-            double distanciaentretrenes = velocidadTren1 * tiempoSalidaTren2
+            double distanciaEntreTrenes = velocidadTren1 * tiempoInicial;
+
+            double tiempoAlcance = distanciaEntreTrenes / (velocidadTren2 - velocidadTren1);
+
+            double tiempoEncuentro = tiempoAlcance + 10;
+
+            Console.WriteLine($"El segundo tren alcanzará al primer tren a las {tiempoEncuentro}");
 
 
-            Console.WriteLine("Hello, World!");
+
+
+          //  double trainSpeed1 = 80;
+          //  double trainSpeed2 = 100;
+
+          //  double initialTime = 1;
+
+          //  double distanceBetweenTrains = trainSpeed1 * initialTime;
+          
+          //  double timeToCatchUp = distanceBetweenTrains / (trainSpeed2 - trainSpeed1);
+
+          //  double catchUpTime = timeToCatchUp + 10;
+          //  Console.WriteLine($"El segundo tren alcanzará al primer tren a las {catchUpTime}");
         }
     }
 }
+
