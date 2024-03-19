@@ -26,12 +26,12 @@ namespace Ejercicio14_NumerosIntervalos
 
             for (int i = numMenor; i<numMayor; i++)
             {
-
+                Console.WriteLine(i);
             }
         }
 
 
 
-        }
+        
     }
 }
