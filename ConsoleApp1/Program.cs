@@ -17,13 +17,13 @@
             int numMax = 0;
             switch (numJugadores)
             {
-                case 1:
+                case 2:
                     numMax = 50;
                     break;
-                case 2:
+                case 3:
                     numMax = 100;
                     break;
-                case 3:
+                case 4:
                     numMax = 200;
                     break;
             }
@@ -34,7 +34,19 @@
             bool jugar = true;
             while (jugar)
             {
-                //turno 1
+                //turnos de el juego
+                for (int i = 1; i <= numJugadores; i++) 
+                {
+                    Console.WriteLine("Turno jugador {0}: ", i);
+                    int intento = int.Parse(Console.ReadLine());
+
+                    if (intento == numAzar)
+                    {
+                        Console.WriteLine("Ganaste");
+
+                    }
+
+                }
             }
         }
     }
