@@ -43,9 +43,19 @@
                     if (intento == numAzar)
                     {
                         Console.WriteLine("Ganaste");
-
+                        jugar = false;
+                        break;
                     }
-
+                    else if (intento > numAzar)
+                    {
+                        Console.WriteLine("MENOR");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Mayor");
+                    }
+                    //preguntar si desean otro tirito
+                    if (jugar)
                 }
             }
         }
