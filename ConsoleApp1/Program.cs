@@ -56,7 +56,14 @@
                     }
                     //preguntar si desean otro tirito
                     if (jugar)
+                    {
+                        Console.WriteLine("Desean otro intento? (Si/No");
+                        string respuesta = Console.ReadLine();
+                        jugar = respuesta == "Si";
+                        if (jugar) Console.Clear();
+                    }
                 }
+                Console.WriteLine("Fin del juego");
             }
         }
     }
