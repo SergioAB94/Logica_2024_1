@@ -32,7 +32,7 @@ namespace Empleado_POO
             Console.WriteLine($"Total ventas mes: {CalcularTotalVentas()}");
         }
     }
-}class Program
+}   class Program
 {
     static void Main(string[] args )
     {
