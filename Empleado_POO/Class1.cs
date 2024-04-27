@@ -1,4 +1,6 @@
-﻿namespace Empleado_POO
+﻿using Empleado_POO;
+
+namespace Empleado_POO
 {
     public class Empleado
     {
@@ -35,7 +37,7 @@
     static void Main(string[] args )
     {
         //crear objeto 
-        Empleado empleado1 = new Empleado ("Andres", 20, 10, 50);
+        Empleado_POO.Empleado empleado1 = new Empleado ("Andres", 20, 10, 5.5);
 
         //Mostrar informacion empleado
         empleado1.MostrarInformacion();
