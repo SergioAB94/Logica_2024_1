@@ -17,6 +17,27 @@
             ValorVenta = valorVenta;
 
         }
+        //Metodo para calcular ventas total del empleado durante el mes
+        public double CalcularTotalVentas()
+        {
+            return VentasMes * ValorVenta;
+        }
+        //Metodo para mostrar la informacion del empleado
+        public void MostrarInformacion()
+        {
+            Console.WriteLine($"Nombre: {Nombre}");
+            Console.WriteLine($"Edad: {Edad}");
+            Console.WriteLine($"Total ventas mes: {CalcularTotalVentas()}");
+        }
+    }
+}class Program
+{
+    static void Main(string[] args )
+    {
+        //crear objeto 
+        Empleado empleado1 = new Empleado ("Andres", 20, 10, 50);
 
+        //Mostrar informacion empleado
+        empleado1.MostrarInformacion();
     }
 }
